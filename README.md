@@ -1,4 +1,4 @@
-# mern-app
+# 📃 MERN App
 MERN App My first app in a bundle "MERN" 
 ## MERN
 ```
@@ -17,5 +17,5 @@ npm run test
 ```
 npm run dev
 ```
-### Copyright
+## Copyright
 &copy; Copyright by. Hellen
