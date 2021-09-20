@@ -1,0 +1,38 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "MERN App My first app in a bundle \"MERN\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "test": "mocha index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HellenWeb/mern-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HellenWeb/mern-app/issues"
+  },
+  "homepage": "https://github.com/HellenWeb/mern-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1",
+    "nodemon": "^2.0.12"
+  }
+}
