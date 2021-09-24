@@ -10,6 +10,7 @@ const cookieParser = require('cookie-parser')
 const mongoose = require('mongoose')
 const bodyparser = require('body-parser')
 const requestLog = require('./routers/request-log')
+const Error = require('./middlewares/error')
 
 // Default Variebles
 
@@ -22,6 +23,7 @@ app.set('views', path.resolve(__dirname, 'client'))
 app.use(cors())
 app.use(cookieParser())
 app.use(bodyparser.json())
+app.use(Error)
 app.use('/api/', requestLog)
 app.use(bodyparser.urlencoded({ extended: true }))
 
