@@ -1,5 +1,5 @@
 # 📃 MERN App
-MERN App My first app in a bundle "MERN" 
+MERN App My application in a bundle "MERN" 
 ## MERN
 ```
 M = MongoDВ = E = Express = R = React.js = N = Node.js
